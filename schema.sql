@@ -7,3 +7,5 @@ CREATE TABLE countries (
 CREATE TABLE visited_countries (
     id SERIAL PRIMARY KEY,
     country_code VARCHAR(2) NOT NULL UNIQUE
+
+);
